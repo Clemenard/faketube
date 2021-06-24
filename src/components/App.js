@@ -1,12 +1,16 @@
 import React, { Component, Fragment } from 'react';
 import ReactDOM from 'react-dom';
 import Header from './layout/Header';
+import List from './layout/List';
 
 class App extends Component {
 
     render() {
         return (
-            <Header />
+            <Fragment>
+                <Header />
+                <List />
+            </Fragment>
         );
     }
 }
